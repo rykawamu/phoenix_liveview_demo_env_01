@@ -22,7 +22,7 @@ Phoenix LiveViewのデモ（example）を動かすための環境をDockerで用
  
 Phoenixが起動したら、以下のURLにアクセスする。
 
-<htttp://localhost:4000>
+<http://localhost:4000>
 
 ## 補足
 
