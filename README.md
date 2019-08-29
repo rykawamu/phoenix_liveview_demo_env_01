@@ -1,0 +1,2 @@
+# phoenix_liveview_demo_env_01
+技術書典7向け。Phoenix LiveViewのデモ（example）を動かすための環境をDockerで用意する。
