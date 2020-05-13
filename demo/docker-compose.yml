@@ -22,7 +22,7 @@ services:
       - ./proj:/proj
 
   db:
-    image: postgres:10.10
+    image: postgres:10
     container_name: postgres_host
     environment:
       - TZ=Asia/Tokyo
@@ -35,4 +35,4 @@ services:
     volumes:
       - ./db/sh:/docker-entrypoint-initdb.d
       - ./db/data:/data
-      - ./db/storage:/var/lib/postgresql/data
+      - ./db/storage:/var/lib/postgresql
