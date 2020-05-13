@@ -1,8 +1,8 @@
-FROM elixir:1.9.1
+FROM elixir:1.10.3
 
 ENV TZ 'Asia/Tokyo'
-ENV ND_VER '10.x'
-ENV PHX_VER '1.4.9'
+ENV ND_VER '12.x'
+ENV PHX_VER '1.5.1'
 
 ### install library
 RUN set -x  \
